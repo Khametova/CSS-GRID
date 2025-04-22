@@ -7,12 +7,26 @@
     font-family: Verdana, sans-serif;
     font-size: 15px;
     line-height: 1.5;
+    --nav-height: 2rem;
+}
+
+body{
+    padding-top:var(--nav-height);
 }
 
 .menu{
+    min-height: var(--nav-height);
     display: flex;
     justify-content: flex-end;
-   
+    gap: 1rem;
+    background-color: white;
+    color: #493351;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
+
+
 
     
