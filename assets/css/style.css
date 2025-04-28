@@ -56,4 +56,14 @@ body{
    color: white;
 }
 
- 
+
+.collage{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:repeat(2, 220px);
+    gap: 10px;
+}
+  .element{
+    justify-items: start;
+    align-items: start;
+  }
