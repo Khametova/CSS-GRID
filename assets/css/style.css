@@ -56,12 +56,20 @@ body{
    color: white;
 }
 
+.projects{
+    text-transform: uppercase;
+    margin-top: 10px 0px;
+    padding: 16px 0px;
+
+}
 
 .collage{
+    margin-top: 20px;
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows:repeat(2, auto);
-    gap: 10px;
+    gap: 20px;
+    
 }
   .element{
     justify-items: start;
@@ -71,4 +79,9 @@ body{
 
 .img{
    width: 100%;
+}
+
+.about{
+    padding: 16px 0px;
+    margin: 10px 0px;
 }
