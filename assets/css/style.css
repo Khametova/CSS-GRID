@@ -7,7 +7,7 @@
     font-family: Verdana, sans-serif;
     font-size: 15px;
     line-height: 1.5;
-    --nav-height:2rem;
+    --nav-height:3.7rem;
 }
 
 body{
@@ -57,8 +57,8 @@ body{
 .title{
    position: absolute; 
    left: 50%;
-   transform: translateX(-50%);
-   bottom: 7rem;
+   top: 50%;
+   transform: translate(-50%, 50%);
    text-align: center;
    color: white;
    display: flex;
@@ -80,23 +80,18 @@ body{
     gap: 20px;
     
 }
-  .element{
-    justify-items: start;
-    align-items: start;
-
-}
+  
 
 .img{
    width: 100%;
 }
 
 .user-card{
-    margin: 10px;
     max-width: 350px;
     width: 100%;
     padding: 5px, 20px, 15px;
-     display: flex; 
-    min-width: 350px;
+    display: flex; 
+    min-width: 200px;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -105,8 +100,8 @@ body{
 
 
 .user-photo-wrapper{
-    width: 320px;
-    height: 215px;
+    width: 100%;
+    height: auto;
 }
 
 .user-photo{
@@ -122,10 +117,12 @@ body{
 }
  
 .architects{
+    padding: 10px;
     margin-top: 20px;
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows:repeat(1, auto);
+    gap: 10px;
 }
 
 .town{
